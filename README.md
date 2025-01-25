@@ -40,5 +40,37 @@ The objective of this project is to develop a model to predict the **median hous
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/california-housing-price-prediction.git
+
+       https://github.com/SRAVAN-DSAI/california-housing-price-prediction.git
+   
+2. Navigate to the project directory:
+   
+       cd california-housing-price-prediction
+   
+3.Install the required dependencies:
+
+      pip install numpy pandas matplotlib seaborn scikit-learn
+
+Usage
+Once everything is set up, you can run the project by executing the Python script(s). Here’s an example:
+
+Run the california_housing_prediction.py script to train the model and predict house prices:
+
+      python california_housing_prediction.py
+      
+The script will:
+Load and preprocess the California Housing dataset.
+Remove outliers based on Z-scores.
+Split the data into training and testing sets.
+Train a Linear Regression model.
+Evaluate the model’s performance using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
+
+Model Evaluation
+After training the model, the following metrics are calculated to evaluate the model's performance:
+Mean Absolute Error (MAE): The average of the absolute errors between predicted and actual values.
+Mean Squared Error (MSE): The average of the squared differences between predicted and actual values.
+R² Score: Measures how well the model fits the data (higher values indicate better performance).
+
+
+      
+
