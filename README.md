@@ -61,16 +61,23 @@ Run the california_housing_prediction.py script to train the model and predict h
 The script will:
 
 Load and preprocess the California Housing dataset.
+
 Remove outliers based on Z-scores.
+
 Split the data into training and testing sets.
+
 Train a Linear Regression model.
+
 Evaluate the model’s performance using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
 
 Model Evaluation
 
 After training the model, the following metrics are calculated to evaluate the model's performance:
+
 Mean Absolute Error (MAE): The average of the absolute errors between predicted and actual values.
+
 Mean Squared Error (MSE): The average of the squared differences between predicted and actual values.
+
 R² Score: Measures how well the model fits the data (higher values indicate better performance).
 
 
