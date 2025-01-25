@@ -7,7 +7,6 @@ This project aims to predict housing prices in California using machine learning
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Model Evaluation](#model-evaluation)
-5. [License](#license)
 
 ## Project Overview
 
@@ -51,7 +50,8 @@ To get started with this project, follow these steps:
 
       pip install numpy pandas matplotlib seaborn scikit-learn
 
-Usage
+## Usage
+
 Once everything is set up, you can run the project by executing the Python script(s). Here’s an example:
 
 Run the california_housing_prediction.py script to train the model and predict house prices:
@@ -70,7 +70,7 @@ Train a Linear Regression model.
 
 Evaluate the model’s performance using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
 
-Model Evaluation
+## Model Evaluation
 
 After training the model, the following metrics are calculated to evaluate the model's performance:
 
